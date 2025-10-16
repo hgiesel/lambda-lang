@@ -1,3 +1,6 @@
+mod lexer;
+
 fn main() {
-    println!("Hello, world!");
+    lexer::foo(r"\x y. y x").print_all();
+    lexer::foo(r"(x y). y x").print_all();
 }
