@@ -25,3 +25,9 @@
 ```
 foo(x y). y x
 ```
+
+
+## Goals
+
+
+- (.) Reverse application function: `(.) :: a -> (a -> b) -> b
